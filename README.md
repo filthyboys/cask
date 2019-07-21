@@ -1,22 +1,22 @@
 Workflow for GitHub
 
-1. Fetch files from github. Navigate to your local project folder and type (git fetch)
-2. Merge the files you just fetched with your local master branch (git merge origin/master)
+1. Fetch files from upstream. Navigate to your local project folder and type (git fetch upstream). This will fetch from the Collab Repo.
+2. Merge the files you just fetched with your local master branch (git merge upstream/master)
 3. Create a branch to work on. This will avoid damaging the master branch on your computer (git branch branch_name)
-4. Move to that branch ("git checkout branch_name")
+4. Move to that branch (git checkout branch_name)
 5. Do your work
 
 6. When ready to save, add your files (git add *)
 7. Commit your changes (git commit -m "enter your commit message here")
 8. Navigate back to the master branch (git checkout master)
-9. Fetch and merge files again like in step 1 and 2. This will update the master branch and make sure it is up to date with the project one.
+9. Fetch and merge files again like in step 1 and 2. This will update the master branch and make sure it is up to date with the Collab Repo.
 10. Go back to your branch (git checkout branch_name)
 
 11. Merge the master to your branch to make sure everything you didn't modify is up to date (git merge master)
     This will update it with the lastest changes from the team
     
-12. Push your branch up for review (git push origin branch_name)
-
+12. Push your branch up to your personal Repo (git push origin branch_name)
+13. Go on github and make a pull request.
 
 branch_name refers to the branch you created to work on.
 
