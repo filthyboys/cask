@@ -4,7 +4,7 @@ Workflow for GitHub
 2. Merge the files you just fetched with your local master branch (git merge upstream/master)
 3. Create a branch to work on. This will avoid damaging the master branch on your computer (git branch branch_name)
 4. Move to that branch (git checkout branch_name)
-5. Do your work
+5. Do your work. You can start the server to see live modifications (npm start)
 
 6. When ready to save, add your files (git add *)
 7. Commit your changes (git commit -m "enter your commit message here")
