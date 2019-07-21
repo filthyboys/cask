@@ -8,8 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I fucking deleted all this shit bro
-          You not going to believe it when you see it
+          Cleaned
         </p>
       </header>
     </div>
