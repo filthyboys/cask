@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Cask 82 website. Building in progress...
+          I fucking deleted all this shit bro
+          You not going to believe it when you see it
         </p>
       </header>
     </div>
