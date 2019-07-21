@@ -1,25 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {NavButton} from '../NavButton/NavButton';
+import './NavBar.css';
 
-
-class navigation extends React.Component {
+export class Navigation extends React.Component {
     constructor(props) {
         super(props);
-        this.state ={navItems:['MENU', 'EVENTS', 'HOURS', 'ABOUT']};
-
-
     }
-    create
+
+    
+
     render() {
+
+        const navItems = ['MENU', 'EVENTS', 'HOURS', 'ABOUT'];
+
         return (
-            <div className='NavBar'>
-            <NavButton />
-            <NavButton />
-            <NavButton />
-            <NavButton />
-            <NavButton />
-            </div>
+                navItems.map(element => {
+                    <NavButton name={element} />
+                })
             )
         }
     }

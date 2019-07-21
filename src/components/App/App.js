@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import {NavBar} from '../NavBar/NavBar';
+import {Navigation} from '../NavBar/NavBar';
 
 
 class App extends React.Component {
+
   render() {
+    <div className='app'>
     <div className='Header'>CASK 82</div>
     <NavBar />
+    </div>
   }
 }
 
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+export default App;
 
 
 
