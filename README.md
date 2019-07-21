@@ -9,8 +9,13 @@ Workflow for GitHub
 6. When ready to save, add your files (git add *)
 7. Commit your changes (git commit -m "enter your commit message here")
 8. Navigate back to the master branch (git checkout master)
-9. Fetch and merge files again like in step 1 and 2. This will prevent pushing an outdated master branch if it was updated while you worked on your project.
-10. Push your branch up for review (git push origin branch_name)
+9. Fetch and merge files again like in step 1 and 2. This will update the master branch and make sure it is up to date with the project one.
+10. Go back to your branch (git checkout branch_name)
+
+11. Merge the master to your branch to make sure everything you didn't modify is up to date (git merge master)
+    This will update it with the lastest changes from the team
+    
+12. Push your branch up for review (git push origin branch_name)
 
 
 branch_name refers to the branch you created to work on.
