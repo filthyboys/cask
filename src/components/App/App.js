@@ -1,18 +1,20 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import logo from '../../logo.svg';
 import './App.css';
+import {NavBar} from '../NavBar/NavBar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Cleaned
-        </p>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  render() {
+    <div className='Header'>CASK 82</div>
+    <NavBar />
+  }
 }
 
-export default App;
+
+ReactDOM.render(<App/>, document.getElementById('app'));
+
+
+
+
